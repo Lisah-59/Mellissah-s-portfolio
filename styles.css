@@ -1,0 +1,159 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f7f9; /* Light off-white background */
+    color: #333; /* Dark gray text */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #2b3e50; /* Deep Blue header */
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+/* Main Section Styles */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Profile Section */
+.profile {
+    margin-bottom: 20px;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 180px; /* Adjusted profile image size */
+    height: 180px;
+    object-fit: cover;
+    border: 5px solid #ff7f50; /* Accent color (coral) border */
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-top: 10px;
+    color: #2b3e50; /* Matching header color for consistency */
+}
+
+/* Bio Section */
+.bio {
+    margin-top: 30px;
+    color: #555; /* Slightly lighter text for bio */
+}
+
+.bio h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #2b3e50; /* Header color for consistency */
+}
+
+.bio p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+/* Skills Section */
+.skills {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+}
+
+.skills h2 {
+    font-size: 1.8em;
+    color: #ff7f50; /* Coral accent color for skills heading */
+    margin-bottom: 15px;
+}
+
+.skills ul {
+    list-style-type: none;
+}
+
+.skills li {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+/* Fun Facts Section */
+.fun-facts {
+    background-color: #e6f0f1; /* Light blue background for fun facts */
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 40px;
+}
+
+.fun-facts h2 {
+    font-size: 1.8em;
+    color: #2b3e50; /* Consistent header color */
+    margin-bottom: 10px;
+}
+
+.fun-facts ul {
+    list-style-type: none;
+}
+
+.fun-facts li {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #2b3e50; /* Deep Blue footer */
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+/* Social Media Styling */
+.social-media {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .social-media a {
+    color: #8e44ad;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 10px;
+    display: inline-block;
+    transition: 0.3s ease;
+  }
+  
+  .social-media a:hover {
+    color: #5e3370;
+  }
+  
